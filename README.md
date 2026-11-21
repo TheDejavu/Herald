@@ -17,7 +17,7 @@ Maven:
 </repository>
 
 <dependency>
-    <groupId>com.github.Mantic-Development</groupId>
+    <groupId>com.github.TheDejavu</groupId>
     <artifactId>Herald</artifactId>
     <version>1.0.0</version>
 </dependency>
@@ -27,7 +27,7 @@ Gradle:
 
 ```kotlin
 repositories { maven("https://jitpack.io") }
-dependencies { implementation("com.github.Mantic-Development:Herald:1.0.0") }
+dependencies { implementation("com.github.TheDejavu:Herald:1.0.0") }
 ```
 
 Shade it into your plugin and relocate `dev.mantic.herald` to your own package, so two plugins using different Herald versions can't clash.

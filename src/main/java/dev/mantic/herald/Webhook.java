@@ -27,7 +27,7 @@ import java.util.concurrent.RejectedExecutionException;
  * }</pre>
  */
 public final class Webhook implements AutoCloseable {
-    private static final String USER_AGENT = "Herald (https://github.com/Mantic-Development/Herald, 1.0.0)";
+    private static final String USER_AGENT = "Herald (https://github.com/TheDejavu/Herald, 1.0.0)";
     private static final int MAX_RETRIES = 3;
     private static final long MAX_WAIT_MILLIS = 60_000;
 
