@@ -115,3 +115,7 @@ Editing or deleting messages, file uploads, forum threads, and receiving events.
 ```
 
 Needs JDK 17 or newer to build; the library itself is compiled for Java 8. Tests run the client against a local stand-in for Discord's endpoint.
+
+## License
+
+[MIT](LICENSE)
